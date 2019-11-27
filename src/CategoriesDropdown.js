@@ -1,11 +1,8 @@
 import { showProducts, products } from "./app";
 
-export const CategoriesDropdown = () =>
-    `<div>
-        <strong>Categories: </strong>
-            <div style="margin: 5px 0 25px" id="categoriesSelect"></div>
-        </select>
-    </div>
+export const CategoriesDropdown = () => `
+    <strong>Categories: </strong>
+    <div style="margin: 5px 0 25px" id="categoriesSelect"></div>
 `;
 
 export const CategoriesSelect = categories => {

@@ -13,6 +13,6 @@ export function ProductItem(product, categories) {
     `;
 }
 
-function getCategoryNameById(categories, categoryId) {
-    return categories.filter(category => category.id === categoryId)[0].name;
+function getCategoryNameById(categories, productCategoryId) {
+    return categories.filter(category => category.id === productCategoryId)[0].name;
 }
